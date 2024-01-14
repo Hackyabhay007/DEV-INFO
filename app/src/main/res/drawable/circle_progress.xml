@@ -1,0 +1,8 @@
+<!-- circle_progress.xml -->
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:thicknessRatio="15"
+    android:useLevel="true">
+    <solid android:color="@color/device_info_bg_dark" /> <!-- Replace with your desired progress color -->
+</shape>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#01FA64</color>
+    <color name="device_info_values_color_light">#FFFFFF</color>
+    <color name="device_info_values_color_black">#000000</color>
+    <color name="device_info_bg_dark">#191414</color>
+    <color name="device_info_bg_light">#E9E8E8</color>
+    <color name="device_info_red">#E40606</color>
+    <color name="device_info_main_bg">#08340F</color>
+</resources>

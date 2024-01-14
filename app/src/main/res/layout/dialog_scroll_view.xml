@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/device_info_bg_dark"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/device_details_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_rounded"
+        android:backgroundTint="@color/device_info_bg_dark"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/close_btn_scrollview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:padding="8dp"
+                android:text="Close"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                app:icon="@android:drawable/ic_menu_close_clear_cancel"
+                app:iconTint="@color/green" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/heading_popupupscrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            tools:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_rounded"
+            android:backgroundTint="@color/black"
+            android:padding="16dp"
+            android:textColor="@color/device_info_values_color_light"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

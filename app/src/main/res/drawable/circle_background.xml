@@ -1,0 +1,26 @@
+<!-- circle_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/transparent" />
+    <item>
+        <shape
+            android:innerRadiusRatio="2.4"
+            android:shape="ring"
+            android:thicknessRatio="20"
+            android:useLevel="false">
+            <solid android:color="#ECECEC" /> <!-- Replace with your desired background color -->
+        </shape>
+    </item>
+    <item
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp"
+        android:bottom="2dp">
+        <shape
+            android:innerRadiusRatio="2.5"
+            android:shape="ring"
+            android:thicknessRatio="20"
+            android:useLevel="false">
+            <solid android:color="#038D0A" /> <!-- Replace with your desired progress color -->
+        </shape>
+    </item>
+</layer-list>
