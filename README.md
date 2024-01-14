@@ -5,8 +5,8 @@
 
 DEVINFO is a mobile application that allows users to extract various device information. It provides users with detailed insights into their device's specifications, hardware components, and sensor readings. The app displays information such as manufacturer, model name, RAM, storage, battery level, Android version, camera specifications, processor (CPU) information, GPU information, live sensor readings, and IMEI (up to Android 10 only).
 
-<img src="https://i.imgur.com/YyaruLL.jpg" alt="Screenshot" width="300">
-
+<img src="https://i.imgur.com/qxDOMVo.png" alt="Screenshot" width="300">
+<img src="https://i.imgur.com/xbjn6xo.png" alt="Screenshot" width="300">
 
 
 
